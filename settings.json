@@ -1,0 +1,113 @@
+{
+    "info": {
+        "name": "Шаблон",
+        "code": "template",
+        "year": "2015",
+        "notes": "Верстка шаблонного проекта",
+        "productionUrl": "http://wemakesites.ru/projects/template/",
+        "siteName": "Верстка",
+        "title": "Верстка шаблонного проекта",
+        "description": "Базовый шаблон для верстки",
+        "keywords": "html, css, js",
+        "image": "/i/og.jpg"
+    },
+    "customer": {
+        "name": "Александр",
+        "company": "GoodCode",
+        "email": "akiricovich@gmail.com",
+        "removeCopyrights": false
+    },
+    "ftp": {
+        "host": "wemakesites.ru",
+        "login": "wemakesites",
+        "password": "wemakesites-root"
+    },
+    "pages": {
+        "home": {
+            "name": "Главная",
+            "progress": {
+                "desktop": "100",
+                "tablet": "70",
+                "mobile": "30"
+            },
+            "title": "Главная страница",
+            "breadCrumbs": [
+                {
+                    "name": "Главная",
+                    "href": "/"
+                },
+                {
+                    "name": "Test"
+                },
+                {
+                    "name": "Test2"
+                }
+            ]
+        },
+        "catalog": {
+            "name": "Каталог",
+            "progress": {
+                "desktop": "100",
+                "tablet": "70",
+                "mobile": "30"
+            }
+        },
+        "card": {
+            "name": "Карточка товара",
+            "progress": {
+                "desktop": "100",
+                "tablet": "70",
+                "mobile": "30"
+            }
+        },
+        "contacts": {
+            "name": "Контакты",
+            "progress": {
+                "desktop": "0",
+                "tablet": "0",
+                "mobile": "30"
+            }
+        }
+    },
+    "paths": {
+        "dev": {
+            "root": "./dev/",
+            "pages": "./dev/pages/",
+            "dummy": "./dev/dummy/",
+            "templates": "./dev/templates/",
+            "lib": "./dev/lib",
+            "js": "./dev/js/",
+            "images": "./dev/i/",
+            "icons": "./dev/i/icons/",
+            "svg": "./dev/svg/",
+            "svgIcons": "./dev/svg/icons/",
+            "css": "./dev/css/",
+            "cssLib": "./dev/lib/css/",
+            "htmlLib": "./dev/lib/html/",
+            "jsLib": "./dev/lib/js/",
+            "fonts": "./dev/fonts/"
+        },
+        "prod": {
+            "root": "./prod/",
+            "archives": "./prod/archives/",
+            "dummy": "./prod/dummy/",
+            "fonts": "./prod/fonts",
+            "images": "./prod/i/",
+            "svg": "./prod/svg/",
+            "css": "./prod/css/",
+            "js": "./prod/js/",
+            "pages": "./prod/pages/"
+        },
+        "front": {
+            "root": "./front/",
+            "email": "./front/email/"
+        },
+        "tmp": {
+            "root": "./tmp/"
+        }
+    },
+    "access": {
+        "user": "demo",
+        "password": "7DZ7cuvUa4"
+    }
+}
